@@ -4,7 +4,7 @@ export default function QuestionGroup1() {
     const [currentQuestion, setCurrentQuestion] = useState(0)
     const [showScore, setShowScore] = useState(false)
     const [score, setScore] = useState(0)
-    
+
     const questions = [
         {
             questionText: 'Where do you want to go for vacations?',
@@ -14,7 +14,7 @@ export default function QuestionGroup1() {
             ],
         },
         {
-            questionText: 'What is the capital of France?',
+            questionText: 'Where do you want to go out of Country?',
             answerOptions: [
                 { answerText: 'New York', isCorrect: false },
                 { answerText: 'London', isCorrect: false },
@@ -23,21 +23,21 @@ export default function QuestionGroup1() {
             ],
         },
         {
-            questionText: 'Who is CEO of Tesla?',
+            questionText: 'What kind of holiday you want to go?',
             answerOptions: [
-                { answerText: 'Jeff Bezos', isCorrect: false },
-                { answerText: 'Elon Musk', isCorrect: true },
-                { answerText: 'Bill Gates', isCorrect: false },
-                { answerText: 'Tony Stark', isCorrect: false },
+                { answerText: 'Beach', isCorrect: false },
+                { answerText: 'Resort', isCorrect: true },
+                { answerText: 'Camping', isCorrect: false },
+                { answerText: 'Desert', isCorrect: false },
             ],
         },
         {
-            questionText: 'The iPhone was created by which company?',
+            questionText: 'Alone? Friends? partner or Full family!!',
             answerOptions: [
-                { answerText: 'Apple', isCorrect: true },
-                { answerText: 'Intel', isCorrect: false },
-                { answerText: 'Amazon', isCorrect: false },
-                { answerText: 'Microsoft', isCorrect: false },
+                { answerText: 'Alone', isCorrect: true },
+                { answerText: 'Friends', isCorrect: false },
+                { answerText: 'Partner', isCorrect: false },
+                { answerText: 'Full family', isCorrect: false },
             ],
         },
         {
